@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F183DA831F6BCCC60036B163 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F183DA821F6BCCC60036B163 /* main.m */; };
+		F183DA861F6BCCC60036B163 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F183DA851F6BCCC60036B163 /* AppDelegate.m */; };
+		F183DA8C1F6BCCC60036B163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F183DA8A1F6BCCC60036B163 /* Main.storyboard */; };
+		F183DA8E1F6BCCC60036B163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F183DA8D1F6BCCC60036B163 /* Assets.xcassets */; };
+		F183DA911F6BCCC60036B163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F183DA8F1F6BCCC60036B163 /* LaunchScreen.storyboard */; };
+		F183DA9A1F6BCF6C0036B163 /* NecfolChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F183DA991F6BCF6C0036B163 /* NecfolChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F183DA7E1F6BCCC60036B163 /* chatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F183DA821F6BCCC60036B163 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F183DA841F6BCCC60036B163 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F183DA851F6BCCC60036B163 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F183DA8B1F6BCCC60036B163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F183DA8D1F6BCCC60036B163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F183DA901F6BCCC60036B163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F183DA921F6BCCC60036B163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F183DA981F6BCF6C0036B163 /* NecfolChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NecfolChatViewController.h; path = ../NecfolChatViewController.h; sourceTree = "<group>"; };
+		F183DA991F6BCF6C0036B163 /* NecfolChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NecfolChatViewController.m; path = ../NecfolChatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F183DA7B1F6BCCC60036B163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F183DA751F6BCCC60036B163 = {
+			isa = PBXGroup;
+			children = (
+				F183DA801F6BCCC60036B163 /* chatApp */,
+				F183DA7F1F6BCCC60036B163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F183DA7F1F6BCCC60036B163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F183DA7E1F6BCCC60036B163 /* chatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F183DA801F6BCCC60036B163 /* chatApp */ = {
+			isa = PBXGroup;
+			children = (
+				F183DA981F6BCF6C0036B163 /* NecfolChatViewController.h */,
+				F183DA991F6BCF6C0036B163 /* NecfolChatViewController.m */,
+				F183DA841F6BCCC60036B163 /* AppDelegate.h */,
+				F183DA851F6BCCC60036B163 /* AppDelegate.m */,
+				F183DA811F6BCCC60036B163 /* Supporting Files */,
+			);
+			path = chatApp;
+			sourceTree = "<group>";
+		};
+		F183DA811F6BCCC60036B163 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F183DA8A1F6BCCC60036B163 /* Main.storyboard */,
+				F183DA8D1F6BCCC60036B163 /* Assets.xcassets */,
+				F183DA8F1F6BCCC60036B163 /* LaunchScreen.storyboard */,
+				F183DA921F6BCCC60036B163 /* Info.plist */,
+				F183DA821F6BCCC60036B163 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F183DA7D1F6BCCC60036B163 /* chatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F183DA951F6BCCC60036B163 /* Build configuration list for PBXNativeTarget "chatApp" */;
+			buildPhases = (
+				F183DA7A1F6BCCC60036B163 /* Sources */,
+				F183DA7B1F6BCCC60036B163 /* Frameworks */,
+				F183DA7C1F6BCCC60036B163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatApp;
+			productName = chatApp;
+			productReference = F183DA7E1F6BCCC60036B163 /* chatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F183DA761F6BCCC60036B163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Necfol;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Necfol;
+				TargetAttributes = {
+					F183DA7D1F6BCCC60036B163 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F183DA791F6BCCC60036B163 /* Build configuration list for PBXProject "chatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F183DA751F6BCCC60036B163;
+			productRefGroup = F183DA7F1F6BCCC60036B163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F183DA7D1F6BCCC60036B163 /* chatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F183DA7C1F6BCCC60036B163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F183DA911F6BCCC60036B163 /* LaunchScreen.storyboard in Resources */,
+				F183DA8E1F6BCCC60036B163 /* Assets.xcassets in Resources */,
+				F183DA8C1F6BCCC60036B163 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F183DA7A1F6BCCC60036B163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F183DA9A1F6BCF6C0036B163 /* NecfolChatViewController.m in Sources */,
+				F183DA861F6BCCC60036B163 /* AppDelegate.m in Sources */,
+				F183DA831F6BCCC60036B163 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F183DA8A1F6BCCC60036B163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F183DA8B1F6BCCC60036B163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F183DA8F1F6BCCC60036B163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F183DA901F6BCCC60036B163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F183DA931F6BCCC60036B163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F183DA941F6BCCC60036B163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F183DA961F6BCCC60036B163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Necfol.chatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F183DA971F6BCCC60036B163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Necfol.chatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F183DA791F6BCCC60036B163 /* Build configuration list for PBXProject "chatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F183DA931F6BCCC60036B163 /* Debug */,
+				F183DA941F6BCCC60036B163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F183DA951F6BCCC60036B163 /* Build configuration list for PBXNativeTarget "chatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F183DA961F6BCCC60036B163 /* Debug */,
+				F183DA971F6BCCC60036B163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F183DA761F6BCCC60036B163 /* Project object */;
+}
